@@ -20,6 +20,7 @@ export default defineConfig({
     vuetify({
       styles: {
         configFile: 'src/styles/variables/_vuetify.scss',
+        as: 'vuetify-variables',
       },
     }),
     Pages({}),
